@@ -1,0 +1,62 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Политика Cookies | Vanta-Craft</title>
+  <meta name="description" content="Vanta-Craft — IT Школа, где вы получите Быстрый и легкий старт в программировании. Платформа уже доступна в Европе.">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F5F7FA'/%3E%3Cpath d='M18 18 L32 46 L46 18' stroke='%23007AFF' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3Crect x='22' y='38' width='20' height='20' fill='%23FF3B30' rx='4'/%3E%3Ccircle cx='32' cy='48' r='4' fill='%23F5F7FA'/%3E%3C/svg%3E">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600;700;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+  </head>
+  <body>
+    <load
+      src="./partials/header.html"
+/>
+
+<main class="main--policy">
+  <div class="policy__content">
+      <h1>Политика Cookies</h1>
+      <p>Дата вступления в силу: 26 ноября 2025 г.</p>
+
+      <h2>1. Что такое файлы Cookie?</h2>
+      <p>
+          Cookie — это небольшие текстовые файлы, которые используются для улучшения работы сайта. Они помогают ускорить загрузку страниц, обеспечить удобную навигацию и предоставить пользователю персонализированный опыт.
+      </p>
+
+      <h2>2. Типы и цели использования Cookie</h2>
+      <p>
+          Мы используем файлы cookie для следующих целей:
+      </p>
+      <ul>
+          <li><strong>Функциональные:</strong> обеспечивают стабильную работу платформы, быстрое подключение и корректную загрузку материалов.</li>
+          <li><strong>Аналитические:</strong> помогают нам анализировать взаимодействие пользователей с сайтом и улучшать качество контента и обучения.</li>
+      </ul>
+
+      <h2>3. Согласие и управление Cookie</h2>
+      <p>
+          Используя наш сайт, вы соглашаетесь на применение файлов cookie. Пользователи из стран ЕС могут управлять настройками cookie через интерфейс браузера или специальное окно согласия на сайте.
+      </p>
+  </div>
+</main>
+
+
+    <load src="./partials/footer.html" />
+    <div class="cookie-popup is-hidden" id="cookiePopup">
+      <p class="cookie-popup__text">Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="cookies.html" class="cookie-popup__link">Cookie политике</a>.</p>
+      <button class="cookie-popup__button button--primary pulsate-button" id="acceptCookies">Принять</button>
+  </div>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script>
+      // Инициализация Lucide Icons
+      lucide.createIcons();
+  </script>
+  </body>
+</html>
